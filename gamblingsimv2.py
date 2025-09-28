@@ -3,7 +3,9 @@
 ############# BETTING SIMULATOR 2025 ###############
 ####################################################
 ####################################################
-
+# Known bugs: 
+# - Aces not working as intended. Points_system() will check if score > 11 but will convert all Aces to 1 if your first card was an ace - meaning 2 aces should be worth 12 but are worth 11.
+# - Sometimes the player will win multiple times what they should, this happens after a win is succceeded by a double-down loss.
 
 import random
 import sys
@@ -173,5 +175,6 @@ def choose_difficulty():
         else:
            print("Invalid! Pick a difficulty 1-4")
         return total_tries
+
 
 g_logic()
