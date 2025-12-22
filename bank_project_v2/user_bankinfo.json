@@ -1,0 +1,26 @@
+[
+    {
+        "username": "admin",
+        "password": "0-42-22-17-11-m-T-P",
+        "balance": 150,
+        "key": 0,
+        "email": "nothing",
+        "bankid": "0"
+    },
+    {
+        "username": "amin123",
+        "password": "35-51-31-12-T-B-G",
+        "balance": 30.0,
+        "key": 18279531319404666936744957292644,
+        "email": "cornflakes1913@gmail.com",
+        "bankid": "4427-8518-9649-4618"
+    },
+    {
+        "username": "b",
+        "password": "3",
+        "balance": 270.0,
+        "key": 99730497880452090047891843835943,
+        "email": "cornflakes1913@gmail.com",
+        "bankid": "3765-6182-2795-3964"
+    }
+]
